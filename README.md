@@ -8,6 +8,14 @@ This repository contains a Generative Adversarial Network (GAN) implementation f
 - **GAN Architecture:** Implements a Generative Adversarial Network with both generator and discriminator components.
 - **Breast Cancer Image Synthesis:** Generates synthetic breast cancer images to augment existing datasets.
 
+Take a look at the final example of the generated image:
+![Generated Image](generated.png)
+
+The generator and discriminator loss plots are also available:
+![Loss Plot](loss.png)
+
+Additionally, the saved models are `G.pth` (Generator) and `D.pth` (Discriminator).
+
 ## Usage
 
 1. **Data Preparation:** Ensure your breast cancer image dataset is appropriately organized.
